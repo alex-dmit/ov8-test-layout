@@ -1,0 +1,69 @@
+* {
+    font-family: 'Golos Text', cursive;
+}
+
+h1 {
+    font-family: 'Climate Crisis', cursive;
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.sale-header {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.sale-btn {
+    width: 100px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 0;
+    transition: all .3s;
+    box-shadow: 0px 4px 5px -2px rgba(0,0,0,0.2),
+                0px 7px 10px 1px rgba(0,0,0,0.14),
+                0px 2px 16px 1px rgba(0,0,0,0.12);
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.sale-btn:hover {
+    color: white;
+    background-color: rgb(23, 23, 178);
+}
+
+.sale-btn:active {
+    box-shadow: inset 0 0 9px 3px rgb(0 0 0 / 50%),
+                0px 4px 5px -2px rgba(0,0,0,0.2),
+                0px 7px 10px 1px rgba(0,0,0,0.14),
+                0px 2px 16px 1px rgba(0,0,0,0.12);
+}
+
+.action {
+    background-image: url('756693916902322.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+}
+
+.action-text {
+    color: white;
+    margin: 50px auto auto auto;
+    text-align: center;
+}
+
+.action-text h2 {
+    font-size: 2.5rem;
+}
+
+.mask {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.381);
+    display: flex;
+}
